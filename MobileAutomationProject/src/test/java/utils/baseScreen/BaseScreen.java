@@ -40,9 +40,10 @@ public class BaseScreen {
         waiToBeVisible(element);
         return true;
     }
-    public boolean isElementClickable(WebElement element){
-        waiToBeClickable(element);
-        return  true;
-    }
+   public boolean isElementDisplayed(WebElement element){
+        return element.isDisplayed();
+   }
+
+
 
 }
