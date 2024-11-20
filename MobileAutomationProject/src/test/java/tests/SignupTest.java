@@ -19,9 +19,7 @@ public class SignupTest extends BaseMobileTest {
         LoginScreen login = home.loginScreen();
         SignUpScreen signUp = login.signUpScreen();
         signUp.signUp();
-
-
-
+        Assert.assertTrue(signUp.isSuccessPopUpPresent(), "Popup window failed to be located");
 
     }
 }

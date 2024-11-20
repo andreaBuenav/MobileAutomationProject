@@ -4,7 +4,10 @@
 
     <test name="MobileTest" >
         <classes>
-            <class name="tests.SignupTest" />
+            <class name="tests.NavigationMenuTest"></class>
+            <class name="tests.SignupTest"></class>
+            <class name="tests.LoginTest"></class>
+
         </classes>
     </test>
 
