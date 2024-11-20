@@ -2,7 +2,7 @@
 ## Content table
  [Description](#description)<br/>
  [Disclaimers](#disclaimers)<br/>
- [Capabilities.json](#capabilities.json)<br/>
+ [Capabilities](#capabilities)<br/>
  [Contact](#contact)<br/>
  [Clone this](#clone) <br/>
 
@@ -23,19 +23,18 @@ register all the problems that the users encounter.<br/><br/>
    - Finally a swipe in different directions test will be done.<br/><br/>
 3.JavaFaker was used to provide all the names, last names mails and passwords, meaning that every test has a different user with different
  personal data to interact with the page.<br/>
-6. If the Android version of the project is not compatible with your device's Android version, please go back to the content table and select "Capabilities.json"
+6. If the Android version of the project is not compatible with your device's Android version, please go back to the content table and select "Capabilities"
    and follow all the steps to change the Android version of the source code.<br/>
 8. All the tests have a comment to know where the test of that user failed.
 
-### Capabilities.json 
-[ChromeDriver for testing](https://googlechromelabs.github.io/chrome-for-testing/)<br/>      
- To set the new chrome driver just delete the one in this path of the project: PomPractice/drivers/chromedriver.exe
-then drag the new chromedriver.exe that you downloaded into the path where the deleted chromedriver was originally.<br/>
+### Capabilities 
+To change the andoid version, go to the resources package, then go to the capabilities file, after that search for 
+"platformVersion = 15". There you can change the Android version.<br/>
 
 ### Contact 
 for any questions or suggestions pleasse contact to this mail:<br/>
 [Mail](andrea.buenaventura@globant.com)<br/>
 
 ### Clone
-git clone https://github.com/andreaBuenav/SourceDemoAutomationProject.git
+git clone [https://github.com/andreaBuenav/SourceDemoAutomationProject.git](https://github.com/andreaBuenav/MobileAutomationProject.git)
 
