@@ -5,6 +5,9 @@
 
     <test name="MobileTest" >
         <classes>
+            <class name="tests.NavigationMenuTest"></class>
+            <class name="tests.SignupTest"></class>
+            <class name="tests.LoginTest"></class>
             <class name="tests.SwipeTest"></class>
 
 
