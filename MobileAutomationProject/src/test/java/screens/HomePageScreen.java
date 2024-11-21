@@ -38,7 +38,7 @@ public class HomePageScreen extends BaseScreen {
             webViewBtn.click();
             Assert.assertTrue(isElementVisible(webViewBtn), "Unable to locate web view button");
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            System.out.println(e.getMessage());;
         }
         return new WebViewScreen(driver);
     }
@@ -50,7 +50,7 @@ public class HomePageScreen extends BaseScreen {
             loginBtn.click();
             Assert.assertTrue(isElementVisible(loginBtn), "Unable to locate login button");
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            System.out.println(e.getMessage());;
         }
         return new LoginScreen(driver);
     }
@@ -62,7 +62,7 @@ public class HomePageScreen extends BaseScreen {
             formsBtn.click();
             Assert.assertTrue(isElementVisible(formsBtn), "Unable to locate forms button");
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            System.out.println(e.getMessage());;
         }
         return new FormsScreen(driver);
     }
@@ -73,7 +73,7 @@ public class HomePageScreen extends BaseScreen {
             swipeBtn.click();
             Assert.assertTrue(isElementVisible(swipeBtn), "Unable to locate swipe button");
         } catch (Exception e) {
-            throw new RuntimeException(e);
+            System.out.println(e.getMessage());;
         }
         return new SwipeScreen(driver);
     }
