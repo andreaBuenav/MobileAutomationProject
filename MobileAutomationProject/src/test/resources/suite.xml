@@ -2,11 +2,11 @@
 
 <suite name="Suite1" verbose="1" >
 
+
     <test name="MobileTest" >
         <classes>
-            <class name="tests.NavigationMenuTest"></class>
-            <class name="tests.SignupTest"></class>
-            <class name="tests.LoginTest"></class>
+            <class name="tests.SwipeTest"></class>
+
 
         </classes>
     </test>
